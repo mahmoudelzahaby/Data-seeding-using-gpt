@@ -20,8 +20,10 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install -r requirements.txt
-      working-directory: scripts
+        pip install random
+        pip install openai
+        pip install mysql.connector
+
 
     - name: Run Python scripts
       run: |
