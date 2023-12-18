@@ -25,6 +25,7 @@ jobs:
 
     - name: Install dependencies
       run: |
+        pip install --upgrade
         pip install random
         pip install openai
         pip install mysql.connector
