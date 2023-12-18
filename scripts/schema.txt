@@ -1,7 +1,7 @@
 {
   "schemas": [
     {
-      "table_name": "staff",
+      "table_name": "staf",
       "fields": [
         {"name": "id", "type": "integer"},
         {"name": "name", "type": "string"},
@@ -14,7 +14,7 @@
       ]
     },
     {
-      "table_name": "employee",
+      "table_name": "employe",
       "fields": [
         {"name": "id", "type": "integer"},
         {"name": "name", "type": "string"},
