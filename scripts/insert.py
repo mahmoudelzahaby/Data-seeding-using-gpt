@@ -16,7 +16,7 @@ with open('cred.txt', 'r') as file:
 
 # Specify a larger number of data items in the prompt
 num_data_items = 1000  # You can adjust this number based on your needs
-prompt = f"Generate {num_data_items} data items and create tables with the following schema: {schema_content} to create table and insert it to mysql database using python script using faker and use this connection: {cred_content} "
+prompt = f"Generate {num_data_items} data items and create tables with the following schema: {schema_content} to create table and insert it to mysql database using python script using faker and use this connection: {cred_content} in valid python syntx "
 
 # Set up and make the API request
 response = openai.Completion.create(
