@@ -29,6 +29,7 @@ jobs:
         pip install openai --upgrade
         pip install openai==0.28
         pip install mysql-connector-python
+        pip install faker
 
 
 
