@@ -2,5 +2,5 @@
     host="svc-24b7b016-b727-41b2-b209-cd3ac3cc68f3-dml.aws-virginia-5.svc.singlestore.com",
     user="admin",
     password="P@ssw0rd",
-    database="stup"
+    database="dataseed"
 )
