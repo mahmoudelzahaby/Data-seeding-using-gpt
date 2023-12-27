@@ -2,5 +2,5 @@
     host="svc-0e9e100e-0b83-407a-836b-9f605acc203c-dml.aws-oregon-4.svc.singlestore.com",
     user="admin",
     password="P@ssw0rd",
-    database="dataseed"
+    database="s2_dataset_martech_ce4d0011"
 )
