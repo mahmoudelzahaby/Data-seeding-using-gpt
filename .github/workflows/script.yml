@@ -32,10 +32,10 @@ jobs:
         pip install faker
 
 
-
     - name: Run Python scripts
       env:
         OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        CRED_CONTENT: ${{ secrets.CRED_CONTENT }}
       run: |
         python3 insert.py
         python3 generated_data.py

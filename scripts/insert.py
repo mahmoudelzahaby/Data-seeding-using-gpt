@@ -11,11 +11,13 @@ openai.api_key = api_key
 with open('schema.txt', 'r') as file:
     schema_content = file.read()
 
-with open('cred.txt', 'r') as file:
-   cred_content = file.read()
+# with open('cred.txt', 'r') as file:
+#    cred_content = file.read()
+
+cred_content = os.environ.get("CRED_CONTENT")
 
 # Specify a larger number of data items in the prompt
-num_data_items = 1000  # You can adjust this number based on your needs
+num_data_items = 10000  # You can adjust this number based on your needs
 prompt = f"Generate {num_data_items} data items and create tables with the following schema: {schema_content} to create table and insert it to mysql database using python script using faker and use this connection: {cred_content} in valid python syntx and not a long data "
 
 # Set up and make the API request
