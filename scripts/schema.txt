@@ -1,7 +1,7 @@
 {
   "schemas": [
     {
-      "table_name": "b_labs",
+      "table_name": "blabs",
       "fields": [
         {"name": "id", "type": "integer"},
         {"name": "name", "type": "string"},
